@@ -9,10 +9,7 @@ const About: React.FC = () => {
         </h1>
 
         <p className="text-lg mb-8 text-center max-w-3xl mx-auto">
-          Mentorship is a platform designed to connect mentees with experienced
-          mentors in various fields — education, tech, business, and more. We
-          believe in building a community where knowledge, support, and guidance
-          are freely shared.
+          Mentorship is a dynamic platform that bridges the gap between aspiring mentees and seasoned mentors across diverse industries—from education and tech to business and beyond. We’re dedicated to fostering a collaborative community where knowledge, support, and growth thrive. Whether you’re seeking guidance or eager to share your expertise, Mentorship empowers connections that inspire and elevate.
         </p>
 
         <div className="grid md:grid-cols-2 gap-10">
@@ -21,14 +18,10 @@ const About: React.FC = () => {
               Why Mentorship Matters
             </h2>
             <p className="text-gray-700 mb-4">
-              Mentorship can accelerate personal and professional growth.
-              Whether you're a student seeking guidance or a professional
-              looking to give back, a strong mentor-mentee relationship can make
-              a lasting impact.
+             Mentorship has the power to fast-track success—both personally and professionally. Whether you're a student navigating your path or an experienced professional eager to share your knowledge, the right mentor-mentee connection can transform careers and lives.
             </p>
             <p className="text-gray-700">
-              Our platform makes it easy to connect, schedule sessions, and
-              track progress in a secure and user-friendly environment.
+              We’ve built a safe, easy-to-use platform where mentors and mentees can connect, meet, and grow—every step of the way
             </p>
           </div>
 
