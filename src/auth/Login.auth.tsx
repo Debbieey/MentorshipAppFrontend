@@ -1,5 +1,3 @@
-// src/auth/login.auth.tsx
-
 export interface LoginResponse {
     message: string;
     token?: string;

@@ -1,4 +1,3 @@
-// src/components/dashboard/ManagePreferences.tsx
 import React from "react";
 
 const ManagePreferences: React.FC = () => {

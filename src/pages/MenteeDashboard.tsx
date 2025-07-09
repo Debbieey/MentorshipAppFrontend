@@ -1,4 +1,3 @@
-// src/pages/MenteeDashboard.tsx
 import React, { useEffect, useState } from "react";
 
 interface User {

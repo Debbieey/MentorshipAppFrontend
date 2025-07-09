@@ -1,4 +1,3 @@
-// src/components/common/SocialLinks.tsx
 import React from "react";
 import {
   FaFacebookF,

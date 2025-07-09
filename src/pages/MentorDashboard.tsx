@@ -1,4 +1,3 @@
-// src/pages/MentorDashboard.tsx
 import React, { useEffect, useState } from "react";
 
 interface User {

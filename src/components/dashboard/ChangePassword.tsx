@@ -1,4 +1,3 @@
-// src/components/dashboard/ChangePassword.tsx
 import React from "react";
 
 const ChangePassword: React.FC = () => {
