@@ -5,8 +5,9 @@ const ForgotPasswordRequest: React.FC = () => {
   const [email, setEmail] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const baseUrl = import.meta.env.VITE_CLOUD_URL || import.meta.env.VITE_LOCAL_URL;
 
-  const navigate = useNavigate(); // ⬅️ initialize navigate
+  const navigate = useNavigate(); 
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -20,7 +21,7 @@ const ForgotPasswordRequest: React.FC = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        "http://localhost:3001/api/users/forgot-password/request",
+       `${baseUrl}/users/forgot-password/request`,
         {
           method: "POST",
           headers: {

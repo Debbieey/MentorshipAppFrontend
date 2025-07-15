@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 
 const Signup: React.FC = () => {
   const navigate = useNavigate();
+  const baseUrl = import.meta.env.VITE_CLOUD_URL || import.meta.env.VITE_LOCAL_URL;
 
   const [formData, setFormData] = useState({
     email: "",
@@ -56,7 +57,7 @@ const Signup: React.FC = () => {
     }
 
     try {
-      const response = await fetch("/api/users/auth/signup", {
+      const response = await fetch(`${baseUrl}/users/auth/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
