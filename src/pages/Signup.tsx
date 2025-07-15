@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Input from "../components/common/Input";
+import {Link} from "react-router-dom";
 
 const Signup: React.FC = () => {
   const navigate = useNavigate();
@@ -135,9 +136,9 @@ const Signup: React.FC = () => {
 
         <div className="text-sm text-center mt-4">
           Already have an account?{" "}
-          <a href="/login" className="text-blue-600 hover:underline">
+          <Link to="/login" className="text-blue-600 hover:underline">
             Login here
-          </a>
+          </Link>
         </div>
       </div>
     </section>
